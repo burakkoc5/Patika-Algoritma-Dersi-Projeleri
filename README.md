@@ -40,6 +40,43 @@ Best Case: O(n)        [2,6,16,18,22,27]
 2 3 4 5 6 9 8 15 7
 
 
+# Proje 2 
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+# Cevap 2
+
+[16,21,11,8,12,22] İkiye bölme
+
+[16,21,11] ve [8,12,22] İkiye bölme
+
+[16],[21,11] ---- [8],[12,22] İkiye bölme
+
+[16] - [21], [11] ----- [8] - [12], [22] Birleştirme
+
+[16] - [11,21] ----- [8] - [12,22] Birleştirme
+
+[11,16,21] ----- [8,12,22] Birleştirme
+
+[8,11,12,16,21,22] Tamamlandı
+
+
+# Big-O Gösterimi
+
+O(nlogn)   
+
+
+
+
+
+
+
+
+
+
+
 
 [patika.dev](www.patika.dev)
 
